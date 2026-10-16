@@ -29,7 +29,7 @@ python -m pip install opencv-python numpy requests
 
 ## Configuration
 
-Open `exam_sentinel_opencv_fixed.py` and set the ESP32 address to the IP printed in the ESP32 Serial Monitor:
+Open `exam_monitoring_opencv.py` and set the ESP32 address to the IP printed in the ESP32 Serial Monitor:
 
 ```python
 ESP32_IP = "192.168.1.100"
@@ -44,7 +44,7 @@ SEND_TO_ESP32 = False
 ## Run
 
 ```powershell
-python exam_sentinel_opencv_fixed.py
+exam_monitoring_opencv.py
 ```
 
 If the default webcam does not open, try changing `CAMERA_INDEX = 0` to `CAMERA_INDEX = 1`.
@@ -122,7 +122,7 @@ python -m pip install opencv-python numpy requests
 
 ```text
 exam_monitor_esp32/
-├── exam_sentinel_opencv_fixed.py
+├── exam_monitoring_opencv.py
 └── README.md
 ```
 
