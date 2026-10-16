@@ -1,4 +1,4 @@
-# Exam Sentinel — ESP32 Exam Monitor
+# Exam-Monitoring-System-Esp32
 
 A Python + OpenCV desktop prototype that displays a live webcam feed, detects visible faces, shows monitoring status, logs events, and can send status updates to an ESP32 over Wi-Fi.
 
@@ -129,3 +129,5 @@ exam_monitor_esp32/
 ## License
 
 Add a license file if you intend to distribute this project publicly.
+
+# Exam-Monitoring-System-Esp32
