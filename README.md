@@ -124,6 +124,7 @@ python -m pip install opencv-python numpy requests
 exam_monitor_esp32/
 ├── exam_monitoring_opencv.py
 └── README.md
+|__ exam_monitor_esp32.ino
 ```
 
 ## License
